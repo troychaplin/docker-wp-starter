@@ -38,6 +38,10 @@ phpcs --config-set default_standard PSR2
 # Check Dependencies Exist
 system_check wordpress wp-config.php git@github.com:troychaplin/wordpress-starter.git main
 
+# Add WP Starter Themes and Plugins
+git clone https://github.com/troychaplin/wp-starter-theme.git wordpress/wp-content/themes/wp-starter-theme
+git clone https://github.com/troychaplin/wp-starter-plugin.git wordpress/wp-content/plugins/wp-starter-plugin
+
 description "Building/Pulling Docker Containers"
 docker-compose pull && docker-compose build --no-cache
 
