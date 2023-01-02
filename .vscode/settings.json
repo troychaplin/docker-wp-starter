@@ -1,0 +1,10 @@
+{
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"thunder-client.saveToWorkspace": true,
+	"thunder-client.workspaceRelativePath": "wordpress",
+	"thunder-client.saveRequestOnSend": false,
+	"phpcs.executablePath": "/usr/local/bin/phpcs"
+}

@@ -1,0 +1,13 @@
+{
+	"recommendations": [
+		"xdebug.php-debug",
+		"esbenp.prettier-vscode",
+		"ikappas.phpcs",
+		"redhat.vscode-yaml",
+		"dsznajder.es7-react-js-snippets",
+		"dbaeumer.vscode-eslint",
+		"paulshen.paul-typescript-toolkit",
+		"rangav.vscode-thunder-client",
+		"wordpresstoolbox.wordpress-toolbox"
+	]
+}

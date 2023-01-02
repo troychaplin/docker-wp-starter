@@ -1,0 +1,13 @@
+.DS_Store
+.env*
+.config/data/logs/*
+.config/data/redis
+!.config/data/logs/.gitkeep
+.config/data/mysql/*
+!.config/data/mysql/.gitkeep
+.config/data/mysql-prod/*
+!.config/data/mysql-prod/.gitkeep
+.config/mysql/db.sql
+
+# Applications
+wordpress
